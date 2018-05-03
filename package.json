@@ -1,0 +1,32 @@
+{
+  "name": "BugDisplayProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.3.0-alpha.1",
+    "react-native": "0.54.1"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.1",
+    "jest": "22.4.2"
+  },
+  "jest": {
+    "preset": "react-native",
+    "testMatch": [
+      "**/__tests__/**/*.js"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "coverageDirectory": "./__coverage__/",
+    "collectCoverage": true
+  },
+  "rnpm": {
+    "assets": [
+      "fonts"
+    ]
+  }
+}
